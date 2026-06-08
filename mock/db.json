@@ -1,0 +1,6 @@
+{
+  "tasks": [
+    { "id": 1, "title": "Fix bug", "status": "open" },
+    { "id": 2, "title": "Write tests", "status": "done" }
+  ]
+}
