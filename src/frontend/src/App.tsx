@@ -1,8 +1,32 @@
-import Header from "../src/components/Header"
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Finance from "../src/pages/Finance-Payment"
+import Fond from "../src/pages/Fond"
+import History from "../src/pages/History"
+import Main from "../src/pages/Dashboard/Main"
+import Rights from "../src/pages/Rights"
+import Safety from "../src/pages/Safety"
+import Mainla from './layout/Mainlayout'
+import {
+  QueryClient,
+  QueryClientProvider
+} from '@tanstack/react-query'
+const queryClient = new QueryClient()
+
 export default function App(){
   return (
-    <div>
-      <Header/>
-    </div>
+    <QueryClientProvider client={queryClient}>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Mainla/>}>
+          <Route path="/" element = {<Main/>}/>
+          <Route path="/finances" element = {<Finance/>}/>
+          <Route path="/history" element = {<History/>}/>
+          <Route path="/rights" element = {<Rights/>}/>
+          <Route path="/safety" element = {<Safety/>}/>
+          <Route path="/fond" element = {<Fond/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+    </QueryClientProvider>
   )
 }
