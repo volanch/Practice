@@ -1,10 +1,11 @@
 .background{
     background-color: #EEF4F8;
     width: 360px;
-    height: 100vh;
+    min-height: 100dvh;
     margin: 0;
     border-right:1px solid #D1D5DB;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    flex-shrink: 0;
 }
 #button1{
     display: flex;

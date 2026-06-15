@@ -15,6 +15,31 @@
     "financialBenefit": 125000,
     "paidByState": 173000
   },
+  "efficiencyCoefficient": {
+    "value": 5.8,
+    "description": "Статус активен. Вы имеете право на пакет медицинских услуг в системе ОСМС"
+  },
+  "paymentCalendar": {
+    "year": 2026,
+    "months": [
+      { "id": 1, "name": "Январь", "status": "paid", "label": "Оплачено (2)" },
+      { "id": 2, "name": "Февраль", "status": "paid", "label": "Оплачено (2)" },
+      { "id": 3, "name": "Март", "status": "paid", "label": "Оплачено (2)" },
+      { "id": 4, "name": "Апрель", "status": "paid", "label": "Оплачено (2)" },
+      { "id": 5, "name": "Май", "status": "unpaid", "label": "Не оплачено" },
+      { "id": 6, "name": "Июнь", "status": "unpaid", "label": "Не оплачено" },
+      { "id": 7, "name": "Июль", "status": "benefit", "label": "Льготный период" },
+      { "id": 8, "name": "Август", "status": "benefit", "label": "Льготный период" },
+      { "id": 9, "name": "Сентябрь", "status": "benefit", "label": "Льготный период" },
+      { "id": 10, "name": "Октябрь", "status": "current", "label": "Оплачено (2)" },
+      { "id": 11, "name": "Ноябрь", "status": "pending", "label": "" },
+      { "id": 12, "name": "Декабрь", "status": "pending", "label": "" }
+    ],
+    "currentMonthPayments": [
+    { "id": 1, "monthId": 10, "organization": "АО КазТрансГаз", "date": "15.10.2026" },
+    { "id": 2, "monthId": 1, "organization": "АО КазТрансГаз", "date": "05.01.2026" }
+  ]
+  },
   "medicalSummary": {
     "chronic": {
       "label": "Хроническое",

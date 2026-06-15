@@ -1,0 +1,77 @@
+#main-analysys-label {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+#text-analysys {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+#text-analysys p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+#text-analysys button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #006196;
+    font-size: 14px;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+#overral-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-analysys {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.box-analysys:last-child {
+    border-bottom: none;
+}
+
+.box-analysys > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+}
+
+.box-analysys > div p:first-child {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.box-analysys > div p:last-child {
+    margin: 0;
+    font-size: 13px;
+    color: #888;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.box-analysys img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    color: #1a56db;
+}

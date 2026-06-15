@@ -1,0 +1,120 @@
+#overral-main {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+
+#data-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+#data-header p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+#linkto {
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #006196;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+#main-datalabel {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #E7EAF0  ;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    border-radius: 10px;
+    border-spacing: 0;
+}
+thead th:first-child {
+    border-top-left-radius: 9px; 
+}
+
+thead th:last-child {
+    border-top-right-radius: 9px;
+}
+thead th {
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+    background-color: #f7f6f6;
+    border-bottom: 1px solid #E7EAF0;
+    border-right: 1px solid #E7EAF0;
+}
+
+thead th:last-child {
+    border-right: none;
+}
+
+tbody th, tbody td {
+    padding: 14px 16px;
+    font-size: 14px;
+    color: #1a1a1a;
+    font-weight: 400;
+    vertical-align: middle;
+    border-right: 1px solid #E7EAF0;
+    border-bottom: 1px solid #E7EAF0;
+}
+
+tbody td:last-child, 
+tbody th:last-child 
+{
+    border-right: none;
+    text-align: center;
+}
+
+
+
+tbody tr:last-child th,
+tbody tr:last-child td 
+{
+    border-bottom: none;
+}
+
+td.work span,
+td.confirmed span,
+td.other span {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+td.work span {
+    color: #006196;
+    border: 1px solid #C5DFEE;
+    background-color: #EEF4F8;;
+}
+
+td.confirmed span {
+    color: #00A100;
+    border: 1px solid #A8ED83;
+    background-color: #F4FFEC;
+}
+
+td.other span {
+    color: #FF4D4F;
+    border: 1px solid #FFCCC7;
+    background-color: #FFF2F0;
+    white-space: nowrap;
+}

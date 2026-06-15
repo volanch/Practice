@@ -1,0 +1,165 @@
+* {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    box-sizing: border-box;
+}
+
+#main-calendar {
+    background-color: #F0F4F8;
+    width: 100%;
+}
+
+#main-calendar > p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2A2C31;
+    margin: 0 0 16px 0;
+}
+
+#main-calendar-label {
+    display: flex;
+    gap: 14px;
+    align-items: stretch; 
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+#left-side {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+#heading-cal {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+#heading-cal > p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2A2C31;
+    margin: 0;
+}
+
+#heading-cal button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+#heading-cal button:hover {
+    background-color: #f0f0f0;
+}
+
+#heading-cal button img {
+    width: 18px;
+    height: 18px;
+}
+
+#dtconteners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+#box-data {
+    background: #2A2C310F;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: border-color 0.15s;
+    min-height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#box-data:hover {
+    border-color: #1379F0;
+}
+
+#box-data.selected {
+    border: 2px solid #1379F0;
+}
+
+#box-data > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#box-data > div > p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+#box-data > div > img {
+    width: 22px;
+    height: 22px;
+}
+
+#box-data > p {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 8px 0 0 0;
+}
+
+#right-side {
+    width: 346px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #E7EAF0;
+    padding: 20px 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 12px 12px 0; 
+}
+
+#right-side > p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 16px 0;
+}
+
+#miniBox {
+    background: #ffffff;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+#miniBox span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #2A2C31;
+}
+
+#miniBox span:last-child {
+    color: #2A2C31CC;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#miniBox img {
+    width: 16px;
+    height: 16px;
+}

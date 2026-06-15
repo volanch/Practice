@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Finance from "../src/pages/Finance-Payment"
+import Finance from "../src/pages/Finance/Finance-Payment"
 import Fond from "../src/pages/Fond"
 import History from "../src/pages/History"
 import Main from "../src/pages/Dashboard/Main"
 import Rights from "../src/pages/Rights"
 import Safety from "../src/pages/Safety"
 import Mainla from './layout/Mainlayout'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import {
   QueryClient,
   QueryClientProvider
@@ -27,6 +28,7 @@ export default function App(){
         </Route>
       </Routes>
     </BrowserRouter>
+    <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   )
 }

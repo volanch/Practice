@@ -1,0 +1,80 @@
+#main-label2 {
+    background: #fefefe;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+#text1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+#text1 p:first-child {
+    margin: 0;
+    font-weight: 600;
+    font-size: 18px;
+    color: #2A2C31;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+}
+
+#text1 p:last-child {
+    font-weight: 400;
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+}
+
+#overralData {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    margin-bottom: 12px;
+}
+
+#byme {
+    text-align: left;
+}
+
+#benefit {
+    text-align: center;
+}
+
+#bystate {
+    text-align: right;
+}
+#byme p:first-child,
+#benefit p:first-child,
+#bystate p:first-child {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    color: #2A2C31;
+    line-height: 120%;
+    font-weight: 500;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+}
+
+#byme p:last-child,
+#benefit p:last-child,
+#bystate p:last-child {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #003C60;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+}
+
+#bar {
+    display: flex;
+    height: 14px;
+    border-radius: 40px;
+    overflow: hidden;
+    background: #e8e8e8;
+}

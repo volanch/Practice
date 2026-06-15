@@ -2,8 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import {api} from "../api/api"
 import Qcoins from "../assets/Q-coins.svg"
 import "../styles/UserCard.css"
-import tableIcon from "../assets/tabler-icon-info-circle.svg"
-// import OsmsCard from "../pages/Dashboard/OsmsCard";
+import tableIcon from "../assets/tabler-icon-info-circle.svg" 
 
 type UserDataType = {
         name: string,
