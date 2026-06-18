@@ -78,3 +78,33 @@
     overflow: hidden;
     background: #e8e8e8;
 }
+@media (max-width: 1024px) {
+    #text1 p:first-child { font-size: 15px; }
+    #text1 p:last-child { font-size: 12px; }
+    #byme p:last-child,
+    #benefit p:last-child,
+    #bystate p:last-child { font-size: 15px; }
+    #byme p:first-child,
+    #benefit p:first-child,
+    #bystate p:first-child { font-size: 12px; }
+}
+@media (max-width:431px) {
+    #text1 p:first-child { font-size: 12px; }
+    #text1 p:last-child { font-size: 10px; }
+    #byme p:last-child,
+    #benefit p:last-child,
+    #bystate p:last-child { font-size: 12px; }
+    #byme p:first-child,
+    #benefit p:first-child,
+    #bystate p:first-child { font-size: 10px; }
+}
+@media (max-width:361px) {
+    #text1 p:first-child { font-size: 12px; }
+    #text1 p:last-child { font-size: 10px; }
+    #byme p:last-child,
+    #benefit p:last-child,
+    #bystate p:last-child { font-size: 10px; }
+    #byme p:first-child,
+    #benefit p:first-child,
+    #bystate p:first-child { font-size: 9px; }
+}

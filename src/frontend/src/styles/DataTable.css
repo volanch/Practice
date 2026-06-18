@@ -33,7 +33,7 @@
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
-    overflow: hidden;
+    overflow-x: auto;
 }
 
 table {
@@ -117,4 +117,21 @@ td.other span {
     border: 1px solid #FFCCC7;
     background-color: #FFF2F0;
     white-space: nowrap;
+}
+@media (max-width: 1024px) {
+    thead th { 
+        padding: 8px 10px; 
+        font-size: 11px; 
+    }
+    tbody th, tbody td { 
+        padding: 10px 10px; 
+        font-size: 12px; 
+    }
+    td.work span,
+    td.confirmed span,
+    td.other span { 
+        padding: 3px 8px; 
+        font-size: 11px; 
+    }
+    #data-header p { font-size: 15px; }
 }

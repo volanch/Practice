@@ -5,33 +5,20 @@ import MedicalSummary from './MedicalSummary';
 import RecentAnalysis from "./RecentAnalysis"
 import DataTable from '../../components/DataTable';
 export default function Main(){
-    return(
-      <div id='main-label'>
+    return (
+    <div id='main-label'>
         <UserCard/>
-        <div style={{
-          paddingTop:"24px",
-          display: "grid",
-          gridTemplateColumns:"1fr 2fr",
-          gap:"16px"
-        }}>
-        <OsmsCard/>
-        <FinancialPassport/>
+        <div className="grid-2">
+            <OsmsCard/>
+            <FinancialPassport/>
         </div>
-        <div style={{
-          paddingTop:"24px",
-          display: "grid",
-          gridTemplateColumns:"2fr 1fr",
-          gap:"16px"
-        }}>     
-        <MedicalSummary/>
-        <RecentAnalysis/>
+        <div className="grid-2-rev">
+            <MedicalSummary/>
+            <RecentAnalysis/>
         </div>
-        <div style={{
-          paddingTop:"24px",
-          paddingBottom:"24px"
-        }} >
-        <DataTable/>
+        <div style={{ paddingTop:"24px", paddingBottom:"24px" }}>
+            <DataTable/>
         </div>
-      </div>
-    )
+    </div>
+)
 }

@@ -47,21 +47,18 @@
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-/* label сверху */
 .cardstyle > p {
     margin: 0 0 8px 0;
     font-size: 13px;
     color: #888;
 }
 
-/* div внутри карточки */
 .cardstyle > div {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-/* title */
 .cardstyle > div p:first-child {
     margin: 0;
     font-size: 15px;
@@ -69,9 +66,23 @@
     color: #1a1a1a;
 }
 
-/* date */
 .cardstyle > div p:last-child {
     margin: 0;
     font-size: 13px;
     color: #888;
+}
+@media (max-width: 1024px) {
+    #all-cards { grid-template-columns: 1fr; }
+    #med-header p { font-size: 15px; }
+    .cardstyle > div p:first-child { font-size: 13px; }
+}
+@media (max-width:413px) {
+        #med-header button{
+            padding-right: 0;
+            padding-left: 90px;
+        }
+        #medical-overral{
+            padding-right: 15px;
+        }
+
 }

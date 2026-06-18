@@ -75,3 +75,16 @@
     cursor: pointer;
     color: #1a56db;
 }
+@media (max-width:1024px) {
+    #text-analysys p{
+        font-size: 15px;
+    }
+}
+@media (max-width:391px) {
+    .box-analysys{
+        padding-right: 39px;
+    }
+    #main-analysys-label{
+        padding-right: 0px;
+    }
+}

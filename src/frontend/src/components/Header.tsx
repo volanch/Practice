@@ -18,23 +18,27 @@ export default function Header(){
             queryKey:["user"],
             queryFn:getUserData
         })
-    return(
-        <div className="main">
+    return (
+    <div className="main">
+        <div className="header-left">
             <img id="logo" src={Logo} alt="Logo" />
             <p id="headtext">Кабинет <br /> предпринимателя</p>
+        </div>
+        <div className="header-right">
             <img id="row" src={Row} alt="Logo" />
             <div id="t">
-                <span>Физическое лицо </span>
+                <span>Физическое лицо</span>
                 <span className="t2">ИИН:{user?.iin}</span>
             </div>
             <div id="icons">
-            <div id="icons-group">
-                <img src={Notify} alt="notify" />
-                <img src={Chat} alt="chat" />
-                <img src={Lang} alt="lang" />
+                <div id="icons-group">
+                    <img src={Notify} alt="notify" />
+                    <img src={Chat} alt="chat" />
+                    <img src={Lang} alt="lang" />
+                </div>
+                <span className="t3">Физ.лицо</span>
             </div>
-            <span className="t3">Физ.лицо</span>
         </div>
-        </div>
-    )
+    </div>
+)
 }
