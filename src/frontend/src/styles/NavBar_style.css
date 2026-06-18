@@ -103,7 +103,7 @@
     .sub-button a { font-size: 11px; padding: 8px 4px 8px 20px; }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 821px) {
     .burger-btn {
         display: flex;
         flex-direction: column;

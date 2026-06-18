@@ -6,18 +6,13 @@ export default function Finance(){
     return(
         <div id='main-label'>
               <UserCard/>
-              <div style={{
-                paddingTop:"24px",
-                display: "grid",
-                gridTemplateColumns:"1fr 2fr",
-                gap:"16px"
-              }}>
+              <div className="grid-2">
               <Coefficient/>
               <FinancialPassport/>
-              <div style={{ gridColumn: "1 / -1" }}>
+              </div>
+              <div style={{  paddingTop: "24px"}}>
                     <Calendar/>
                 </div>
-              </div>
         </div>      
     )
 }

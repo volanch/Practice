@@ -6,6 +6,7 @@
 #main-calendar {
     background-color: #F0F4F8;
     width: 100%;
+
 }
 
 #main-calendar > p {
@@ -21,6 +22,7 @@
     align-items: stretch; 
     background-color: #ffffff;
     border-radius: 12px;
+    overflow-x: auto;
 }
 
 #left-side {
@@ -116,7 +118,9 @@
 }
 
 #right-side {
-    width: 346px;
+    width: 100%;    
+    max-width: 346px;
+    flex-shrink: 1;
     background: #ffffff;
     border-radius: 10px;
     border: 1px solid #E7EAF0;

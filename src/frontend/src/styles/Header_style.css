@@ -104,20 +104,22 @@ body{
     .t2 { font-size: 12px; }
     .t3 { font-size: 13px; padding-right: 16px; }
     #icons { gap: 14px; }
+    .header-right{
+        padding-left:0;
+     }
 }
 
 @media (max-width: 900px) {
     #headtext { 
         font-size:10px
      }
-    #row { display: none; }
 }
-@media (max-width: 1009px) {
+@media (max-width: 1024px) {
     .header-left {
         width: 230px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 821px) {
     .header-left {
         width: 100% !important;
         justify-content: center;
