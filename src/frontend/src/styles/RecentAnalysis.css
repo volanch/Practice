@@ -6,20 +6,22 @@
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-#text-analysys {
+.history-header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: 12px;
     margin-bottom: 16px;
+    flex-wrap: wrap;
 }
 
-#text-analysys p {
+.history-header p {
     margin: 0;
     font-size: 18px;
     font-weight: 600;
     color: #1a1a1a;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    flex: 1;
 }
+
 
 #text-analysys button {
     background: none;
@@ -41,6 +43,7 @@
     align-items: center;
     padding: 12px 0;
     border-bottom: 1px solid #f0f0f0;
+    gap: 16px;
 }
 
 .box-analysys:last-child {
@@ -68,8 +71,13 @@
     color: #888;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
+.box-analysys > img:first-child {
+    width: 40px;
+    height: 40px;
 
-.box-analysys img {
+}
+
+.box-analysys img:last-child {
     width: 20px;
     height: 20px;
     cursor: pointer;

@@ -3,7 +3,7 @@ import OsmsCard from "../../pages/Dashboard/OsmsCard";
 import FinancialPassport from './FinancialPassport';
 import MedicalSummary from './MedicalSummary';
 import RecentAnalysis from "./RecentAnalysis"
-import DataTable from '../../components/DataTable';
+import RecentDataTable from './RecentDataTable';
 export default function Main(){
     return (
     <div id='main-label'>
@@ -17,7 +17,7 @@ export default function Main(){
             <RecentAnalysis/>
         </div>
         <div style={{ paddingTop:"24px", paddingBottom:"24px" }}>
-            <DataTable/>
+            <RecentDataTable/>
         </div>
     </div>
 )

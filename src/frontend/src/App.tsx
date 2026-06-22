@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Finance from "../src/pages/Finance/Finance-Payment"
 import Fond from "../src/pages/Fond"
-import History from "../src/pages/History"
+import History from "./pages/HistoryPage/History"
 import Main from "../src/pages/Dashboard/Main"
 import Rights from "../src/pages/Rights"
 import Safety from "../src/pages/Safety"

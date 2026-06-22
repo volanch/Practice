@@ -1,0 +1,111 @@
+.history-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.history-header p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+    flex: 1;
+}
+
+.custom-input {
+    height: 38px;
+    padding: 0 12px;
+    border: 1px solid #E7EAF0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    color: #1a1a1a;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.custom-input:focus {
+    border-color: #006196;
+}
+
+select.custom-input {
+    min-width: 160px;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23888' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    padding-right: 32px;
+}
+
+input[type="date"].custom-input {
+    min-width: 160px;
+    color: #888;
+}
+
+input[type="date"].custom-input:valid {
+    color: #1a1a1a;
+}
+.tablePages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 24px;
+}
+
+.tablePages button,
+.tablePages span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tablePages button {
+    border: none;
+    background: none;
+    color: #888;
+}
+
+.tablePages button:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.tablePages button:not(:disabled):hover {
+    background: #f5f5f5;
+    border-radius: 10px;
+}
+
+.tablePages span:hover {
+    background: #f5f5f5;
+    cursor: pointer;
+}
+
+.tablePages span.active-page {
+    background: #fff;
+    color: #006196;
+    border: 1px solid #006196;
+}
+
+@media (max-width: 768px) {
+    .history-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .custom-input {
+        width: 100%;
+    }
+}
