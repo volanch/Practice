@@ -97,6 +97,41 @@ input[type="date"].custom-input:valid {
     color: #006196;
     border: 1px solid #006196;
 }
+.middlePart {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.blockinfo {
+    flex: 1;
+    background: #fff;
+    border: 1px solid #E7EAF0;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.blockinfo p:first-child {
+    margin: 0 0 12px 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #2A2C31CC;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.blockinfo p:last-child {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #003C60;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .middlePart {
+        flex-direction: column;
+    }
+}
 
 @media (max-width: 768px) {
     .history-header {

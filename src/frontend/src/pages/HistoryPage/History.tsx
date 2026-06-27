@@ -3,7 +3,7 @@ import { useState } from "react"
 import HeadSwitch from '../../components/HeadSwitch';
 import OverralDataTable from './OverralDataTable';
 import ResultsTable from "../HistoryPage/ResultsTable"
-export default function Main(){
+export default function History(){
     const [active, setActive] = useState<1 | 2>(1)
     return (
     <div id='main-label'>

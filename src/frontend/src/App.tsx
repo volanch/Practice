@@ -3,8 +3,8 @@ import Finance from "../src/pages/Finance/Finance-Payment"
 import Fond from "../src/pages/Fond"
 import History from "./pages/HistoryPage/History"
 import Main from "../src/pages/Dashboard/Main"
-import Rights from "../src/pages/Rights"
-import Safety from "../src/pages/Safety"
+import Rights from "./pages/RightsPage/Rights"
+import Safety from "../src/pages/ControlPage/Safety"
 import Mainla from './layout/Mainlayout'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import {

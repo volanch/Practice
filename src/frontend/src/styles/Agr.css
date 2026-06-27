@@ -1,0 +1,88 @@
+.main-lab-agr {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.main-lab-agr > p {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+#label-agr {
+    background: #fff;
+    border-radius: 12px;
+    padding: 8px 20px;
+}
+
+#agr-string {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid #E7EAF0;
+}
+
+#agr-string:last-child {
+    border-bottom: none;
+}
+
+#agr-string img {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    background: #F5F7FA;
+    border-radius: 120px;
+    padding: 6px;
+}
+
+#sub-agr {
+    flex: 1;
+}
+
+#sub-agr p:first-child {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+#sub-agr p:last-child {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+}
+
+/* Toggle */
+#agr-string input[type="checkbox"] {
+    appearance: none;
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background: #ccc;
+    border-radius: 24px;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.2s;
+}
+
+#agr-string input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 2px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+#agr-string input[type="checkbox"]:checked {
+    background: #006196;
+}
+
+#agr-string input[type="checkbox"]:checked::before {
+    transform: translateX(20px);
+}

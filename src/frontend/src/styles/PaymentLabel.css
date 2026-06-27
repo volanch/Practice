@@ -1,0 +1,45 @@
+*{
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+#pay-lab {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 25px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 340px;
+  gap: 6px;
+}
+
+#lab-content img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 4px;
+}
+
+#lab-content p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+#lab-content p b {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2B2C31;
+}
+
+#lab-content p:last-child {
+  font-size: 13px;
+  color: #2A2C31CC;
+  font-weight: 400;
+  letter-spacing: 0;
+}

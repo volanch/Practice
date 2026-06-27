@@ -14,15 +14,10 @@ type HistoryDataTableType = {
       status: string
       paymentType:"ОСМС"|"Платно"|"Все"
 }
-type PaginatedResponse = {
-    data: HistoryDataTableType[]
-}
 function getTableInfo(page: number) {
-    return api.get<PaginatedResponse>("/historyServices", {
+    return api.get<HistoryDataTableType[]>("/historyServices", {
         params: { _page: page, _limit: 10 }
-    }).then((res) => {
-        return res.data
-    })
+    }).then((res) => res.data)
 }
 export default function OverralDataTable(){
     const [page, setPage] = useState(1);

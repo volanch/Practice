@@ -336,5 +336,281 @@
       "status": "Подтверждено",
       "paymentType": "ОСМС"
     }
-  ]
+  ],
+  "accessLog": [
+    {
+      "id": 1,
+      "date": "24.05.2025",
+      "organization": "Неизвестно",
+      "basis": "Технический доступ",
+      "action": "Просмотр логов",
+      "accessStatus": "Отклонен"
+    },
+    {
+      "id": 2,
+      "date": "12.02.2025",
+      "organization": "Центр материнства и детства",
+      "basis": "Общий анализ крови",
+      "action": "Просмотр истории",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 3,
+      "date": "08.02.2025",
+      "organization": "ГКП на ПХВ \"Городская поликлиника №4\" акимата города Астаны",
+      "basis": "Прием терапевта",
+      "action": "Просмотр данных",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 4,
+      "date": "24.01.2025",
+      "organization": "ИС Фонда",
+      "basis": "Технический аудит",
+      "action": "Просмотр логов",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 5,
+      "date": "12.02.2025",
+      "organization": "ИС Фонда",
+      "basis": "Технический доступ",
+      "action": "Просмотр логов",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 6,
+      "date": "24.05.2025",
+      "organization": "Неизвестно",
+      "basis": "Технический доступ",
+      "action": "Просмотр логов",
+      "accessStatus": "Отклонен"
+    },
+    {
+      "id": 7,
+      "date": "12.02.2025",
+      "organization": "Центр материнства и детства",
+      "basis": "Общий анализ крови",
+      "action": "Просмотр истории",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 8,
+      "date": "12.02.2025",
+      "organization": "ГКП на ПХВ \"Городская поликлиника №4\" акимата города Астаны",
+      "basis": "Прием терапевта",
+      "action": "Просмотр истории",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 9,
+      "date": "24.05.2025",
+      "organization": "Неизвестно",
+      "basis": "Технический доступ",
+      "action": "Просмотр логов",
+      "accessStatus": "Отклонен"
+    },
+    {
+      "id": 10,
+      "date": "10.01.2025",
+      "organization": "ИС Фонда",
+      "basis": "Плановая проверка",
+      "action": "Просмотр данных",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 11,
+      "date": "05.01.2025",
+      "organization": "Shifa Dental Clinic",
+      "basis": "Лечение кариеса",
+      "action": "Просмотр истории",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 12,
+      "date": "28.12.2024",
+      "organization": "Неизвестно",
+      "basis": "Технический доступ",
+      "action": "Просмотр логов",
+      "accessStatus": "Отклонен"
+    },
+    {
+      "id": 13,
+      "date": "15.12.2024",
+      "organization": "ГКП на ПХВ \"Городская поликлиника №4\" акимата города Астаны",
+      "basis": "Прием кардиолога",
+      "action": "Просмотр данных",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 14,
+      "date": "03.12.2024",
+      "organization": "ИС Фонда",
+      "basis": "Технический аудит",
+      "action": "Просмотр логов",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 15,
+      "date": "20.11.2024",
+      "organization": "Центр материнства и детства",
+      "basis": "Биохимия крови",
+      "action": "Просмотр истории",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 16,
+      "date": "08.11.2024",
+      "organization": "Неизвестно",
+      "basis": "Технический доступ",
+      "action": "Просмотр логов",
+      "accessStatus": "Отклонен"
+    },
+    {
+      "id": 17,
+      "date": "25.10.2024",
+      "organization": "ИС Фонда",
+      "basis": "Плановая проверка",
+      "action": "Просмотр данных",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 18,
+      "date": "12.10.2024",
+      "organization": "Shifa Dental Clinic",
+      "basis": "Чистка зубов",
+      "action": "Просмотр истории",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 19,
+      "date": "01.10.2024",
+      "organization": "Неизвестно",
+      "basis": "Технический доступ",
+      "action": "Просмотр логов",
+      "accessStatus": "Отклонен"
+    },
+    {
+      "id": 20,
+      "date": "18.09.2024",
+      "organization": "ГКП на ПХВ \"Городская поликлиника №4\" акимата города Астаны",
+      "basis": "Прием офтальмолога",
+      "action": "Просмотр данных",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 21,
+      "date": "05.09.2024",
+      "organization": "ИС Фонда",
+      "basis": "Технический аудит",
+      "action": "Просмотр логов",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 22,
+      "date": "22.08.2024",
+      "organization": "Центр материнства и детства",
+      "basis": "УЗИ щитовидной железы",
+      "action": "Просмотр истории",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 23,
+      "date": "10.08.2024",
+      "organization": "Неизвестно",
+      "basis": "Технический доступ",
+      "action": "Просмотр логов",
+      "accessStatus": "Отклонен"
+    },
+    {
+      "id": 24,
+      "date": "28.07.2024",
+      "organization": "Shifa Dental Clinic",
+      "basis": "Профессиональная чистка",
+      "action": "Просмотр данных",
+      "accessStatus": "Получен"
+    },
+    {
+      "id": 25,
+      "date": "15.07.2024",
+      "organization": "ИС Фонда",
+      "basis": "Плановая проверка",
+      "action": "Просмотр логов",
+      "accessStatus": "Получен"
+    }
+  ],
+  "accessLogSummary": {
+    "requestsToday": 53,
+    "suspiciousActivity": 2,
+    "avgResponseTime": "45мс"
+  },
+  "consents": [
+    {
+      "id": 1,
+      "title": "Сбор и обработка мед. данных",
+      "description": "Необходимо для предоставления электронных услуг",
+      "enabled": true
+    },
+    {
+      "id": 2,
+      "title": "Доступ сторонних организаций",
+      "description": "Передача данных частным клиникам и партнерам",
+      "enabled": true
+    },
+    {
+      "id": 3,
+      "title": "Использование данных для ИИ-помощника",
+      "description": "Анализ данных для персональных рекомендаций",
+      "enabled": true
+    }
+  ],
+  "services": [
+    { "id": 1, "name": "ЭКГ", "covered": true },
+    { "id": 2, "name": "Лечение кариеса", "covered": false },
+    { "id": 3, "name": "Общий анализ крови", "covered": true },
+    { "id": 4, "name": "Прием терапевта", "covered": true },
+    { "id": 5, "name": "Прием невропатолога", "covered": true },
+    { "id": 6, "name": "УЗИ брюшной полости", "covered": true },
+    { "id": 7, "name": "Чистка зубов", "covered": false },
+    { "id": 8, "name": "Прием кардиолога", "covered": true },
+    { "id": 9, "name": "Биохимия крови", "covered": true },
+    { "id": 10, "name": "Флюорография", "covered": true },
+    { "id": 11, "name": "Удаление зуба", "covered": false },
+    { "id": 12, "name": "Консультация гинеколога", "covered": true },
+    { "id": 13, "name": "Прием офтальмолога", "covered": true },
+    { "id": 14, "name": "Установка пломбы", "covered": false },
+    { "id": 15, "name": "УЗИ щитовидной железы", "covered": true },
+    { "id": 16, "name": "Прием эндокринолога", "covered": true },
+    { "id": 17, "name": "Профессиональная чистка", "covered": false },
+    { "id": 18, "name": "Анализ на гормоны", "covered": true },
+    { "id": 19, "name": "Прием дерматолога", "covered": true },
+    { "id": 20, "name": "Общий анализ мочи", "covered": true },
+    { "id": 21, "name": "Рентген зуба", "covered": false },
+    { "id": 22, "name": "Прием хирурга", "covered": true },
+    { "id": 23, "name": "УЗИ почек", "covered": true },
+    { "id": 24, "name": "Отбеливание зубов", "covered": false },
+    { "id": 25, "name": "Прием ЛОРа", "covered": true },
+    { "id": 26, "name": "МРТ головного мозга", "covered": true },
+    { "id": 27, "name": "КТ грудной клетки", "covered": true },
+    { "id": 28, "name": "Имплантация зуба", "covered": false },
+    { "id": 29, "name": "Прием психиатра", "covered": true },
+    { "id": 30, "name": "Вакцинация", "covered": true }
+  ],
+  "medicines": [
+  { "id": 1, "name": "Метформин", "available": true },
+  { "id": 2, "name": "Амлодипин", "available": true },
+  { "id": 3, "name": "Аторвастатин", "available": true },
+  { "id": 4, "name": "Лозартан", "available": false },
+  { "id": 5, "name": "Омепразол", "available": true },
+  { "id": 6, "name": "Левотироксин", "available": true },
+  { "id": 7, "name": "Бисопролол", "available": false },
+  { "id": 8, "name": "Эналаприл", "available": true },
+  { "id": 9, "name": "Аспирин", "available": true },
+  { "id": 10, "name": "Варфарин", "available": false },
+  { "id": 11, "name": "Инсулин гларгин", "available": true },
+  { "id": 12, "name": "Сальбутамол", "available": true },
+  { "id": 13, "name": "Преднизолон", "available": false },
+  { "id": 14, "name": "Фолиевая кислота", "available": true },
+  { "id": 15, "name": "Панкреатин", "available": true }
+]
 }

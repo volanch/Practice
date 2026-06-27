@@ -5,9 +5,11 @@ export default function Mainla(){
     return(
         <div style={{ display: 'flex', flexDirection: 'column',minWidth: 0,width: '100%' }}>
             <Header/>
-            <div style={{ display: 'flex', flex: 1 }}>
+            <div style={{ display: 'flex', flex: 1, alignItems: 'stretch' }}>
                 <NavBar/>
-                <Outlet/>
+                <div style={{ flex: 1, alignSelf: 'flex-start', minWidth: 0, width: '100%' }}>
+                    <Outlet/>
+                </div>
             </div>
         </div>
     )
